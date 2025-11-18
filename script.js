@@ -24,7 +24,7 @@ setInterval(() => {
             generatedQuetes.shift()
         }, 800)
     }
-}, 1000);
+}, 2000);
 
 btn.addEventListener('click', () => {
     let h1 = document.createElement('h1')
@@ -32,7 +32,7 @@ btn.addEventListener('click', () => {
     let x = Math.random() * 80
     let y = Math.floor(Math.random() * 80)
     let rotate = Math.random() * 360
-    let scale = Math.random() * 1 + .5
+    let scale = Math.random() * 2   +.2
 
     h1.innerHTML = arr[a]
     h1.style.color = 'white'
